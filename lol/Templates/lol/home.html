@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+home page
+        </title>
+    </head>
+    <body>
+     
+        <h1>This is my home page</h1>
+        <p>
+            {% for i in p %}
+
+            {{i.name}}<br>
+
+            {{i.n}}<br>
+            <img src="{{i.img.url}}" height="100"><br>
+            {% if i.url %}
+            <a href="{{i.url}}">link</a>
+            {% endif %}
+             {% endfor %}
+
+
+        </p>
+    </body>
+
+</html>

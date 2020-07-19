@@ -1,0 +1,18 @@
+<h1>j;lskfnk;l</h1>
+RUTHVICK HAS WRITTEN {{p.count}}{{ p.count|pluralize}}
+{% for i in p %}
+{{i.name}}<br> 
+{{i.des|truncatechars:3}}<br>
+<h1>{{i.data|date:'F jS Y'}}</h1><br> 
+<br>
+<br>
+<br>
+<br>
+
+{% endfor %}
+<h1>{{ j }}</h1>
+<h1>{{ t }}</h1>
+{{t.name}}
+{{t.des}}
+{{t.data|date:'M d Y' }}
+<a href=" {% url 'lol:lol1'%}  ">link</a>
